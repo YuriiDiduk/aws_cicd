@@ -1,3 +1,3 @@
 #!/bin/bash
-export DOCKERNAME=i`m_linux
+export DOCKERNAME=imlinux
 echo $DOCKERNAME >> /usr/share/nginx/html/index.html
