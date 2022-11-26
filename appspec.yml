@@ -1,0 +1,7 @@
+
+version: 0.1
+os: linux
+files:
+  - source: index.html
+    destination: /usr/share/nginx/html
+ 
