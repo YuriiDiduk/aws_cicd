@@ -4,7 +4,8 @@ os: linux
 files:
   - source: index.html
     destination: /usr/share/nginx/html
-
+    
+hooks:
   AfterInstall:
      - location: after_install.sh
        timeout: 30
